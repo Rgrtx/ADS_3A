@@ -1,1 +1,37 @@
-exemplo
+git --version->Versão do Git.
+
+Mais opções-Open Git bash here-abre um prompt do git na pasta selecionada. A pasta do git fica oculta.
+
+git init->Transforma a brench em master.
+
+git branch -m master main-> Alterar branch master para main.
+
+git status->Mostra o status do arquivo (se ocorreu alteração).
+
+git add . ->Adiciona os arquivos para a próxima versão.
+
+git add nome.extensão->Sobe somente o arquivo selecionado para a nova versão.
+
+commit->Gera a nova versão.
+
+git config --global user.email->Comando para atualizar o email do usuário.
+
+git config --global user.name->Comando para atualizar o nome do usuário.
+
+git commit -m “criação do arquivo (nome do arquivo).extensão”
+->commita(sobe para o controle de versão)os arquivos da pasta.
+(Nesse exemplo , um arquivo foi alterado, adicionado ao controle de versão, e feita uma nova versão.)
+
+git log-> Mostra o registro de versões.
+
+ git log --start->Mostra o registro com mais detalhes.
+
+git reset --hard id do commit->Retorna para a versão especificada pelo ID do commit.
+
+git reset –hard~1 ->Volta uma versão (se for “~2” volta duas versões).
+
+git clone endereço do repositório
+
+git remote (o próprio github gera esse comando quando criamos o repositório)
+
+
