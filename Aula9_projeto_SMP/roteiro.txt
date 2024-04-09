@@ -1,0 +1,5 @@
+npm init - inicializa o npm
+npm install express --save - instala as dependencias no nome_modules
+npm install nodemon --save-dev - instala da dependencia dev nodemon
+
+nodemon - monitora todos os arquivos JS no pacote
